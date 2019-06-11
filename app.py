@@ -12,7 +12,9 @@ def send_result():
 
 @app.route('/query', methods=['POST'])
 def get_query():
-    return jsonify({'msg': 'This is a Test'})
+    print(request.is_json)
+    content = request.get_json()
+    return jsonify(content)
 
 
 if __name__ == '__main__':
