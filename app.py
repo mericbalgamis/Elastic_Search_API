@@ -12,12 +12,12 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 #     return jsonify({'result': 'This is result JSON'})
 #
 
-@app.route('/query', methods=['POST'])
+@app.route('/query', methods=['GET','POST'])
 @cross_origin()
 def get_query():
     print(request.is_json)
     content = request.get_json()
-    return jsonify(content)
+    return jsonify({"message" : "successful"})
 
 
 if __name__ == '__main__':
