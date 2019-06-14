@@ -1,7 +1,9 @@
 #!/usr/local/bin/python3
 from flask import Flask, jsonify, request
 from flask_cors import CORS, cross_origin
+from read_json import storeElasticSearch, searchByIndex
 
+content = ""
 app = Flask(__name__)
 cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
@@ -17,7 +19,9 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 def get_query():
     print(request.is_json)
     content = request.get_json()
-    return jsonify({"message" : "successful"})
+    es = storeElasticSearch()
+    result = searchByIndex(es,"restaurant", "fastfood", 3)
+    return jsonify(result)
 
 
 if __name__ == '__main__':

@@ -21,7 +21,8 @@ def searchFullText(es, index_name, name, value):
 def searchByIndex(es_object, index_name, type, id):
 
     res = es_object.get(index=index_name, doc_type=type, id=id)
-    pprint(res)
+    return res
+    #pprint(res)
 
 
 # Function for creating index in Elastic Search
@@ -93,17 +94,26 @@ def storeElasticSearch(es):
 
     return es
 
-if __name__ == '__main__':
-
+def startElasticSearch():
     es = connectElasticSearch()
     es = createIndex(es,"restaurant","fastfood")
 
     es = storeElasticSearch(es)
     es.indices.refresh(index="restaurant")
 
-    searchByIndex(es,"restaurant", "fastfood", 3)
-    print("\nANOTHER QUERY EXAMPLE\n")
-    searchFullText(es, "restaurant", "neighborhood", "Manhattan")
+    return es
+
+
+def main():
+    es = connectElasticSearch()
+    es = createIndex(es,"restaurant","fastfood")
+
+    es = storeElasticSearch(es)
+    es.indices.refresh(index="restaurant")
+
+    #searchByIndex(es,"restaurant", "fastfood", 3)
+    #print("\nANOTHER QUERY EXAMPLE\n")
+    #searchFullText(es, "restaurant", "neighborhood", "Manhattan")
 
     # Bu aramada "Roberta's Pizza" kelimesinin tümünü bulmuyor. Tekrar bakılması lazım.
     #searchFullText(es, "restaurant", "reviews", "Roberta's Pizza")
