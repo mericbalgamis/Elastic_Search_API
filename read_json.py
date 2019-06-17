@@ -117,3 +117,5 @@ def main():
 
     # Bu aramada "Roberta's Pizza" kelimesinin tümünü bulmuyor. Tekrar bakılması lazım.
     #searchFullText(es, "restaurant", "reviews", "Roberta's Pizza")
+
+    #{"query":{"match":{"neighborhood": "Manhattan"}}}

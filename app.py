@@ -1,6 +1,9 @@
 #!/usr/local/bin/python3
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, make_response
 from flask_cors import CORS, cross_origin
+import json
+from flask_restful.utils.cors import crossdomain
+
 from read_json import startElasticSearch, searchByIndex
 
 content = ""
@@ -17,10 +20,10 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 @app.route('/query', methods=['GET','POST'])
 @cross_origin()
 def get_query():
-    print(request.is_json)
     content = request.get_json()
+    print(json.dumps(content,indent=2))
     es = startElasticSearch()
-    result = searchByIndex(es,"restaurant", "fastfood", 3)
+    result = es.search("restaurant", content)
     return jsonify(result)
 
 
