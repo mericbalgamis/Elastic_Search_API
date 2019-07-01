@@ -26,43 +26,29 @@ def searchByIndex(es_object, index_name, type, id):
 
 
 # Function for creating index in Elastic Search
-def createIndex(es, index_name, type_name):
-
+def createIndex(es, index_name,type_name):
     doc = {
 
-        index_name:{
+        index_name: {
 
-            type_name:{
+            type_name: {
 
-                "properties":{
+                "properties": {
+                    "vr": {"type": "string"},
+                    "Value": {"type": "string"},
 
-                    "name":{"type": "string"},
-                    "neighborhood":{"type": "string"},
-                    "photograph":{"type": "string"},
-                    "address":{"type": "string"},
-                    "latlng":{"lat": {"type": "numeric"},"lng": {"type": "numeric"},},
-                    "cuisine_type":{"type": "string"},
-                    "operating_hours":{"Monday": {"type": "string"},"Tuesday": {"type": "string"},"Wednesday": {"type": "string"},
-                                       "Thursday": {"type": "string"},"Friday": {"type": "string"},"Saturday": {"type": "string"},
-                                       "Sunday": {"type": "string"},
-                    },
-                    "reviews": {
-                        "type": "nested",
-                        "properties": {
-                            "name": {"type": "string"},
-                            "date": {"type": "string"},
-                            "rating": {"type": "numeric"},
-                            "comments": {"type": "string"}
-                        }
-                    }
+
+
+
                 }
             }
         }
     }
 
-    res = es.index(index=index_name, doc_type=type_name, body=doc)
+    res = es.index(index=index_name,doc_type=type_name,body=doc)
     print(res['result'])
     return es
+
 
 # Establish connection to elastic search and returns ES object
 def connectElasticSearch():
@@ -88,7 +74,7 @@ def storeElasticSearch(es):
                 docket_content = f.read()
 
                 # Send the data into es
-                es.index(index='restaurant', ignore=400, id=i, body=json.loads(docket_content))
+                es.index(index='mr', ignore=400, id=i, body=json.loads(docket_content))
                 print('Data indexed successfully')
                 i = i+1
 
@@ -96,26 +82,26 @@ def storeElasticSearch(es):
 
 def startElasticSearch():
     es = connectElasticSearch()
-    es = createIndex(es,"restaurant","fastfood")
+    es = createIndex(es,"mr","_doc")
 
     es = storeElasticSearch(es)
-    es.indices.refresh(index="restaurant")
+    es.indices.refresh(index="mr")
 
     return es
 
 
 def main():
     es = connectElasticSearch()
-    es = createIndex(es,"restaurant","fastfood")
+    es = createIndex(es,"mr","_doc")
 
     es = storeElasticSearch(es)
-    es.indices.refresh(index="restaurant")
+    es.indices.refresh(index="mr")
 
-    #searchByIndex(es,"restaurant", "fastfood", 3)
+    searchByIndex(es,"mr", "_doc", 3)
     #print("\nANOTHER QUERY EXAMPLE\n")
     #searchFullText(es, "restaurant", "neighborhood", "Manhattan")
 
     # Bu aramada "Roberta's Pizza" kelimesinin tümünü bulmuyor. Tekrar bakılması lazım.
     #searchFullText(es, "restaurant", "reviews", "Roberta's Pizza")
 
-    #{"query":{"match":{"neighborhood": "Manhattan"}}}
+    #{"query":{"match":{"DCMs": "00080008"}}}
