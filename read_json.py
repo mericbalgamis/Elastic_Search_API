@@ -3,7 +3,6 @@ from pprint import pprint
 from elasticsearch import Elasticsearch, helpers
 import logging
 
-
 # Simple search function for elastic search
 def searchFullText(es, index_name, name, value):
 
@@ -49,6 +48,14 @@ def createIndex(es, index_name,type_name):
     print(res['result'])
     return es
 
+def convertTag():
+    print("xfbds")
+    for filename in os.listdir(os.getcwd()):
+        if filename.endswith(".json"):
+            f = open(filename)
+            json_file = f.read()
+            print(json_file['DCMs'])
+
 
 # Establish connection to elastic search and returns ES object
 def connectElasticSearch():
@@ -91,13 +98,15 @@ def startElasticSearch():
 
 
 def main():
-    es = connectElasticSearch()
-    es = createIndex(es,"mr","_doc")
+    #es = connectElasticSearch()
+    #es = createIndex(es,"mr","_doc")
 
-    es = storeElasticSearch(es)
-    es.indices.refresh(index="mr")
+    #es = storeElasticSearch(es)
+    #es.indices.refresh(index="mr")
 
-    searchByIndex(es,"mr", "_doc", 3)
+    #searchByIndex(es,"mr", "_doc", 3)
+    print("asdh")
+    convertTag()
     #print("\nANOTHER QUERY EXAMPLE\n")
     #searchFullText(es, "restaurant", "neighborhood", "Manhattan")
 

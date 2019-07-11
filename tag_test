@@ -1,0 +1,4 @@
+import tagDictionary
+
+tag = tagDictionary.DcmTagDictionary()
+tag.convert(tagDictionary,)
