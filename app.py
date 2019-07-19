@@ -14,7 +14,7 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 #
 # @app.route('/result', methods=['GET'])
 # def send_result():
-#     return jsonify({'result': 'This is result JSON'})
+#     return jsonify({'result': queryBuilder'This is result JSON'})
 #
 
 @app.route('/query', methods=['GET','POST'])
@@ -23,8 +23,8 @@ def get_query():
     content = request.get_json()
     print(json.dumps(content,indent=2))
     es = startElasticSearch()
-    result = es.search("mr", content)
-    return jsonify(result)
+    #result = es.search("mr", content)
+    return jsonify({'name':'meric'})
 
 
 if __name__ == '__main__':

@@ -28,21 +28,14 @@ def searchByIndex(es_object, index_name, type, id):
 def createIndex(es, index_name,type_name):
     doc = {
 
-        index_name: {
-
-            type_name: {
-
-                "properties": {
-                    "vr": {"type": "string"},
-                    "Value": {"type": "string"},
-
-
-
-
-                }
+        "settings" : {
+            "index" : {
+                "number_of_shards" : 1,
+                "number_of_replicas" : 1
             }
         }
     }
+
 
     res = es.index(index=index_name,doc_type=type_name,body=doc)
     print(res['result'])
@@ -73,6 +66,7 @@ def connectElasticSearch():
 
 # Search for JSON files in cwd and store JSON files in Elastic Search
 def storeElasticSearch(es):
+    print("store")
     i = 1
     if es is not None:
         for filename in os.listdir(os.getcwd()):
@@ -81,7 +75,7 @@ def storeElasticSearch(es):
                 docket_content = f.read()
 
                 # Send the data into es
-                es.index(index='mr', ignore=400, id=i, body=json.loads(docket_content))
+                es.index(index='mr', ignore=400, id=i, body=json.loads(docket_content),request_timeout=50)
                 print('Data indexed successfully')
                 i = i+1
 
@@ -89,7 +83,7 @@ def storeElasticSearch(es):
 
 def startElasticSearch():
     es = connectElasticSearch()
-    es = createIndex(es,"mr","_doc")
+    es = createIndex(es,"mr","doc")
 
     es = storeElasticSearch(es)
     es.indices.refresh(index="mr")
@@ -98,15 +92,15 @@ def startElasticSearch():
 
 
 def main():
-    #es = connectElasticSearch()
-    #es = createIndex(es,"mr","_doc")
+    es = connectElasticSearch()
+    es = createIndex(es,"mr","doc")
 
-    #es = storeElasticSearch(es)
-    #es.indices.refresh(index="mr")
+    es = storeElasticSearch(es)
+    es.indices.refresh(index="mr")
 
-    #searchByIndex(es,"mr", "_doc", 3)
-    print("asdh")
-    convertTag()
+    #searchByIndex(es,"mr", "doc", 3)
+    #print("asdh")
+    #convertTag()
     #print("\nANOTHER QUERY EXAMPLE\n")
     #searchFullText(es, "restaurant", "neighborhood", "Manhattan")
 
@@ -114,3 +108,5 @@ def main():
     #searchFullText(es, "restaurant", "reviews", "Roberta's Pizza")
 
     #{"query":{"match":{"DCMs": "00080008"}}}
+
+#main()
