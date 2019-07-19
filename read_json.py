@@ -3,6 +3,8 @@ from pprint import pprint
 from elasticsearch import Elasticsearch, helpers
 import logging
 
+first = True
+
 # Simple search function for elastic search
 def searchFullText(es, index_name, name, value):
 
@@ -83,13 +85,17 @@ def storeElasticSearch(es):
 
 def startElasticSearch():
     es = connectElasticSearch()
-    es = createIndex(es,"mr","doc")
-
-    es = storeElasticSearch(es)
+    if first:
+        es = createIndex(es, "mr", "doc")
+        es = storeElasticSearch(es)
+        setFalse()
     es.indices.refresh(index="mr")
 
     return es
 
+def setFalse():
+    global first
+    first = False
 
 def main():
     es = connectElasticSearch()
