@@ -24,7 +24,9 @@ def get_query():
     print(json.dumps(content,indent=2))
     es = startElasticSearch()
     result = es.search("mr", content)
-    return jsonify(result)
+    #return jsonify(result)
+    return jsonify({'result':'success'})
+
 
 
 if __name__ == '__main__':
