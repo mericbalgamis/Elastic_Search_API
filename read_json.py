@@ -5,6 +5,8 @@ from elasticsearch import Elasticsearch, helpers
 from tagDictionary import DcmTagDictionary
 import logging
 
+first = True
+
 # Simple search function for elastic search
 def searchFullText(es, index_name, name, value):
 
@@ -43,21 +45,17 @@ def keys_exists(element, *keys):
     return True
 # Function for creating index in Elastic Search
 def createIndex(es, index_name,type_name):
-    mapping = '''
-    {
-       "mappings": {
-          "feed": {
-             "properties": {
-                "data": {
-                   "type": "nested",
-                   "include_in_parent": true
-                }
-             }
-          }
-       }
-    }'''
+    doc={
+        "settings" : {
+            "index" : {
+                "number_of_shards" : 1,
+                "number_of_replicas" : 1
+            }
+        }
+    }
 
-    res = es.index(index=index_name,doc_type=type_name,body=mapping)
+
+    res = es.index(index=index_name,doc_type=type_name,body=doc)
     print(res['result'])
     return es
 
@@ -93,6 +91,7 @@ def convertTag():
         json_list=json_list.replace(str(p),str(sonuc))
 
         #print(json.dumps(json_list, indent=4, sort_keys=True))
+
 
     for filename in os.listdir(os.getcwd()):
         if filename.endswith(".json"):
@@ -192,6 +191,7 @@ def find(key, dictionary):
 
 # Search for JSON files in cwd and store JSON files in Elastic Search
 def storeElasticSearch(es):
+    print("store")
     i = 1
     if es is not None:
         for filename in os.listdir(os.getcwd()):
@@ -200,7 +200,7 @@ def storeElasticSearch(es):
                 docket_content = f.read()
 
                 # Send the data into es
-                es.index(index='mr', ignore=400, id=i, body=json.loads(docket_content))
+                es.index(index='mr', ignore=400, id=i, body=json.loads(docket_content),request_timeout=50)
                 print('Data indexed successfully')
                 i = i+1
 
@@ -208,12 +208,16 @@ def storeElasticSearch(es):
 
 def startElasticSearch():
     es = connectElasticSearch()
-    es = createIndex(es,"mr","doc")
 
-    es = storeElasticSearch(es)
+    if first:
+        es = createIndex(es, "mr", "doc")
+        es = storeElasticSearch(es)
+        setFalse()
+
     es.indices.refresh(index="mr")
 
     return es
+
 
 def find2(key, dictionary):
     for k, v in dictionary.iteritems():
@@ -246,6 +250,12 @@ def extract_values(obj, key):
 
     results = extract(obj, arr, key)
     return results
+
+def setFalse():
+    global first
+    first = False
+
+
 def main():
     es = connectElasticSearch()
     es = createIndex(es,"mr","doc")
@@ -253,7 +263,12 @@ def main():
     es = storeElasticSearch(es)
     es.indices.refresh(index="mr")
 
+
     #searchByIndex(es,"mr", "_doc", 3)
+
+
+    #searchByIndex(es,"mr", "doc", 3)
+    #print("asdh")
 
     #convertTag()
     #print("\nANOTHER QUERY EXAMPLE\n")
@@ -264,6 +279,7 @@ def main():
 
     #{"query":{"match":{"DCMs": "00080008"}}}
 
+
 #startElasticSearch()
 #names=extract_values('json',"vr")
 #print(names)
@@ -271,4 +287,7 @@ def main():
 #acc1 = []
 #print(extract_text("00080013","acc1"))
 #print(find2("00080012",".json"))
-convertTag()
+#convertTag()
+
+#main()
+
