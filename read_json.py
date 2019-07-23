@@ -45,6 +45,7 @@ def keys_exists(element, *keys):
     return True
 # Function for creating index in Elastic Search
 def createIndex(es, index_name,type_name):
+
     doc={
         "settings" : {
             "index" : {
