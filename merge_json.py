@@ -45,14 +45,31 @@ with open(output_name) as json_file:
 #for obj in output_list:
     #print(obj.rule_id)
 
-with open(input_name) as json_file:
+with open(input_name,"r+") as json_file:
     input = json.load(json_file)
     for i in range(0, len(input['DCMs'])):
         for input_SOP in input['DCMs'][i]["00080018"]["Value"]:
             for output_obj in output_list:
                 if(input_SOP==output_obj.SOP):
+
+                    a_dict = {'SUCCESS':{"rule_id":output_obj.rule_id}}
+
+
+
                     #print(output_obj.rule_id)
-                    #input['DCMs'][i]
+
+                    #with open(input_name) as f:
+                        #data = json.load(f)
+
+                    input['DCMs'][i].update(a_dict)
+
+                    with open(input_name, 'w') as f:
+                          json.dump(input, f)
+
+
+
+
+
 
 
     #for p in data['individual_results'][0]['rule_results']:
