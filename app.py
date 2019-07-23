@@ -23,8 +23,8 @@ def get_query():
     content = request.get_json()
     print(json.dumps(content,indent=2))
     es = startElasticSearch()
-    #result = es.search("mr", content)
-    return jsonify({'name':'meric'})
+    result = es.search("mr", content)
+    return jsonify(result)
 
 
 if __name__ == '__main__':
