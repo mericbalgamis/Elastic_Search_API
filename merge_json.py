@@ -129,11 +129,17 @@ with open(input_name,"r+") as json_file:
                         b_dict = {
                             "SUCCESS": {
                                 "individual_results": {
+                                    "subset_id": [
+                                        output_obj.rule_id
+                                    ],
                                    "rule_id": [
                                        output_obj.rule_id
                                     ]
                                 },
                                 "bulk_results": {
+                                    "subset_id": {
+                                        output_obj.rule_id
+                                    },
                                    "mandatory": {
                                         "rule_id": [
                                             ""

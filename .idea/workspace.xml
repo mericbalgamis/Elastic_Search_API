@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b600665b-1306-4853-88d8-09e44c89a59f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/flask-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/flask-api.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.2.752.24.7.2268657091.254554-e5141679-66c8-4f2f-97c0-2b7735e2ab79-2019-05-09_03-11-54.json" beforeDir="false" afterPath="$PROJECT_DIR$/1.2.752.24.7.2268657091.254554-e5141679-66c8-4f2f-97c0-2b7735e2ab79-2019-05-09_03-11-54.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/merge_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/merge_json.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,11 +15,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/merge_json.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="144" column="46" lean-forward="true" selection-start-line="144" selection-start-column="46" selection-end-line="144" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1.2.752.24.7.2268657091.254554-e5141679-66c8-4f2f-97c0-2b7735e2ab79-2019-05-09_03-11-54.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="1" selection-start-column="1" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1.2.752.24.7.2268657091.254554-e5141679-66c8-4f2f-97c0-2b7735e2ab79-2019-05-09_03-11-54_test_out.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-117">
-              <caret line="4362" column="17" selection-start-line="4362" selection-start-column="5" selection-end-line="4362" selection-end-column="17" />
+            <state relative-caret-position="-1536">
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="23" />
               <folding>
                 <element signature="e#550#52153#0" />
                 <element signature="e#678#52100#0" />
@@ -65,7 +81,6 @@
                 <element signature="e#48249#49508#0" />
                 <element signature="e#49534#50793#0" />
                 <element signature="e#50819#52078#0" />
-                <element signature="e#52299#103721#0" />
                 <element signature="e#52325#53584#0" />
                 <element signature="e#53610#54869#0" />
                 <element signature="e#54895#56154#0" />
@@ -109,9 +124,6 @@
                 <element signature="e#103792#155395#0" />
                 <element signature="e#103955#155377#0" />
                 <element signature="e#155413#207016#0" />
-                <element signature="e#207745#208018#0" />
-                <element signature="e#208074#208284#0" />
-                <element signature="e#208344#208587#0" />
                 <element signature="e#208974#210337#0" />
                 <element signature="e#210367#211730#0" />
                 <element signature="e#211760#213123#0" />
@@ -152,21 +164,11 @@
                 <element signature="e#259185#260548#0" />
                 <element signature="e#260578#261941#0" />
                 <element signature="e#261971#263334#0" />
-                <element signature="e#263404#319415#0" />
+                <element signature="e#263584#280326#0" />
                 <element signature="e#280363#319393#0" />
                 <element signature="e#319437#375448#0" />
-                <element signature="e#375633#431660#0" />
                 <element signature="e#375655#431642#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/merge_json.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1372">
-              <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -219,7 +221,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="Elastic_Search_API" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane" />
     </panes>
   </component>
@@ -380,11 +392,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="40" y="35" width="1374" height="778" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49562684" visible="true" weight="0.253003" />
-      <window_info id="Structure" order="1" sideWeight="0.5043732" side_tool="true" visible="true" weight="0.253003" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49741825" visible="true" weight="0.23749119" />
+      <window_info active="true" id="Structure" order="1" sideWeight="0.5025818" side_tool="true" visible="true" weight="0.23749119" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
@@ -397,11 +409,11 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3298969" />
-      <window_info anchor="right" id="R Packages" />
-      <window_info anchor="right" id="R Graphics" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="R Packages" order="4" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49726775" visible="true" weight="0.24870849" />
@@ -527,15 +539,15 @@
         </state>
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50710">
-          <caret line="31955" column="1" selection-start-line="31955" selection-start-column="1" selection-end-line="31955" selection-end-column="1" />
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1.2.752.24.7.2268657091.254554-e5141679-66c8-4f2f-97c0-2b7735e2ab79-2019-05-09_03-11-54_test_out.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-117">
-          <caret line="4362" column="17" selection-start-line="4362" selection-start-column="5" selection-end-line="4362" selection-end-column="17" />
+        <state relative-caret-position="-1536">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="23" />
           <folding>
             <element signature="e#550#52153#0" />
             <element signature="e#678#52100#0" />
@@ -579,7 +591,6 @@
             <element signature="e#48249#49508#0" />
             <element signature="e#49534#50793#0" />
             <element signature="e#50819#52078#0" />
-            <element signature="e#52299#103721#0" />
             <element signature="e#52325#53584#0" />
             <element signature="e#53610#54869#0" />
             <element signature="e#54895#56154#0" />
@@ -623,9 +634,6 @@
             <element signature="e#103792#155395#0" />
             <element signature="e#103955#155377#0" />
             <element signature="e#155413#207016#0" />
-            <element signature="e#207745#208018#0" />
-            <element signature="e#208074#208284#0" />
-            <element signature="e#208344#208587#0" />
             <element signature="e#208974#210337#0" />
             <element signature="e#210367#211730#0" />
             <element signature="e#211760#213123#0" />
@@ -666,10 +674,9 @@
             <element signature="e#259185#260548#0" />
             <element signature="e#260578#261941#0" />
             <element signature="e#261971#263334#0" />
-            <element signature="e#263404#319415#0" />
+            <element signature="e#263584#280326#0" />
             <element signature="e#280363#319393#0" />
             <element signature="e#319437#375448#0" />
-            <element signature="e#375633#431660#0" />
             <element signature="e#375655#431642#0" />
           </folding>
         </state>
@@ -677,8 +684,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/merge_json.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1372">
-          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        <state relative-caret-position="169">
+          <caret line="144" column="46" lean-forward="true" selection-start-line="144" selection-start-column="46" selection-end-line="144" selection-end-column="46" />
         </state>
       </provider>
     </entry>
