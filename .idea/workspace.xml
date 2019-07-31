@@ -5,7 +5,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/flask-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/flask-api.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.2.752.24.7.2268657091.254554-e5141679-66c8-4f2f-97c0-2b7735e2ab79-2019-05-09_03-11-54.json" beforeDir="false" afterPath="$PROJECT_DIR$/1.2.752.24.7.2268657091.254554-e5141679-66c8-4f2f-97c0-2b7735e2ab79-2019-05-09_03-11-54.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcm_tags_tab_sep.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dcm_tags_tab_sep.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/merge_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/merge_json.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meric_dicom_w_derived_merged_txtKeys.json" beforeDir="false" afterPath="$PROJECT_DIR$/meric_dicom_w_derived_merged_txtKeys.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/read_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/read_json.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,148 +20,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1.2.752.24.7.2268657091.254554-e5141679-66c8-4f2f-97c0-2b7735e2ab79-2019-05-09_03-11-54_test_out.json">
+        <entry file="file://$PROJECT_DIR$/merge_json.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-              <folding>
-                <element signature="e#550#52153#0" />
-                <element signature="e#678#52100#0" />
-                <element signature="e#704#1963#0" />
-                <element signature="e#1989#3248#0" />
-                <element signature="e#3274#4533#0" />
-                <element signature="e#4559#5818#0" />
-                <element signature="e#5844#7103#0" />
-                <element signature="e#7129#8388#0" />
-                <element signature="e#8414#9673#0" />
-                <element signature="e#9699#10958#0" />
-                <element signature="e#10984#12243#0" />
-                <element signature="e#12269#13528#0" />
-                <element signature="e#13554#14813#0" />
-                <element signature="e#14839#16098#0" />
-                <element signature="e#16124#17383#0" />
-                <element signature="e#17409#18668#0" />
-                <element signature="e#18694#19953#0" />
-                <element signature="e#19979#21238#0" />
-                <element signature="e#21264#22523#0" />
-                <element signature="e#22549#23808#0" />
-                <element signature="e#23834#25093#0" />
-                <element signature="e#25119#26378#0" />
-                <element signature="e#26404#27663#0" />
-                <element signature="e#27689#28948#0" />
-                <element signature="e#28974#30233#0" />
-                <element signature="e#30259#31518#0" />
-                <element signature="e#31544#32803#0" />
-                <element signature="e#32829#34088#0" />
-                <element signature="e#34114#35373#0" />
-                <element signature="e#35399#36658#0" />
-                <element signature="e#36684#37943#0" />
-                <element signature="e#37969#39228#0" />
-                <element signature="e#39254#40513#0" />
-                <element signature="e#40539#41798#0" />
-                <element signature="e#41824#43083#0" />
-                <element signature="e#43109#44368#0" />
-                <element signature="e#44394#45653#0" />
-                <element signature="e#45679#46938#0" />
-                <element signature="e#46964#48223#0" />
-                <element signature="e#48249#49508#0" />
-                <element signature="e#49534#50793#0" />
-                <element signature="e#50819#52078#0" />
-                <element signature="e#52171#103774#0" />
-                <element signature="e#52299#103721#0" />
-                <element signature="e#52325#53584#0" />
-                <element signature="e#53610#54869#0" />
-                <element signature="e#54895#56154#0" />
-                <element signature="e#56180#57439#0" />
-                <element signature="e#57465#58724#0" />
-                <element signature="e#58750#60009#0" />
-                <element signature="e#60035#61294#0" />
-                <element signature="e#61320#62579#0" />
-                <element signature="e#62605#63864#0" />
-                <element signature="e#63890#65149#0" />
-                <element signature="e#65175#66434#0" />
-                <element signature="e#66460#67719#0" />
-                <element signature="e#67745#69004#0" />
-                <element signature="e#69030#70289#0" />
-                <element signature="e#70315#71574#0" />
-                <element signature="e#71600#72859#0" />
-                <element signature="e#72885#74144#0" />
-                <element signature="e#74170#75429#0" />
-                <element signature="e#75455#76714#0" />
-                <element signature="e#76740#77999#0" />
-                <element signature="e#78025#79284#0" />
-                <element signature="e#79310#80569#0" />
-                <element signature="e#80595#81854#0" />
-                <element signature="e#81880#83139#0" />
-                <element signature="e#83165#84424#0" />
-                <element signature="e#84450#85709#0" />
-                <element signature="e#85735#86994#0" />
-                <element signature="e#87020#88279#0" />
-                <element signature="e#88305#89564#0" />
-                <element signature="e#89590#90849#0" />
-                <element signature="e#90875#92134#0" />
-                <element signature="e#92160#93419#0" />
-                <element signature="e#93445#94704#0" />
-                <element signature="e#94730#95989#0" />
-                <element signature="e#96015#97274#0" />
-                <element signature="e#97300#98559#0" />
-                <element signature="e#98585#99844#0" />
-                <element signature="e#99870#101129#0" />
-                <element signature="e#101155#102414#0" />
-                <element signature="e#102440#103699#0" />
-                <element signature="e#103792#155395#0" />
-                <element signature="e#103955#155377#0" />
-                <element signature="e#155413#207016#0" />
-                <element signature="e#207371#263382#0" />
-                <element signature="e#207745#208018#0" />
-                <element signature="e#208074#208284#0" />
-                <element signature="e#208344#208587#0" />
-                <element signature="e#208974#210337#0" />
-                <element signature="e#210367#211730#0" />
-                <element signature="e#211760#213123#0" />
-                <element signature="e#213153#214516#0" />
-                <element signature="e#214546#215909#0" />
-                <element signature="e#215939#217302#0" />
-                <element signature="e#217332#218695#0" />
-                <element signature="e#218725#220088#0" />
-                <element signature="e#220118#221481#0" />
-                <element signature="e#221511#222874#0" />
-                <element signature="e#222904#224267#0" />
-                <element signature="e#224330#263360#0" />
-                <element signature="e#224360#225723#0" />
-                <element signature="e#225753#227116#0" />
-                <element signature="e#227146#228509#0" />
-                <element signature="e#228539#229902#0" />
-                <element signature="e#229932#231295#0" />
-                <element signature="e#231325#232688#0" />
-                <element signature="e#232718#234081#0" />
-                <element signature="e#234111#235474#0" />
-                <element signature="e#235504#236867#0" />
-                <element signature="e#236897#238260#0" />
-                <element signature="e#238290#239653#0" />
-                <element signature="e#239683#241046#0" />
-                <element signature="e#241076#242439#0" />
-                <element signature="e#242469#243832#0" />
-                <element signature="e#243862#245225#0" />
-                <element signature="e#245255#246618#0" />
-                <element signature="e#246648#248011#0" />
-                <element signature="e#248041#249404#0" />
-                <element signature="e#249434#250797#0" />
-                <element signature="e#250827#252190#0" />
-                <element signature="e#252220#253583#0" />
-                <element signature="e#253613#254976#0" />
-                <element signature="e#255006#256369#0" />
-                <element signature="e#256399#257762#0" />
-                <element signature="e#257792#259155#0" />
-                <element signature="e#259185#260548#0" />
-                <element signature="e#260578#261941#0" />
-                <element signature="e#261971#263334#0" />
-                <element signature="e#263404#319415#0" />
-                <element signature="e#280363#319393#0" />
-                <element signature="e#319437#375448#0" />
-                <element signature="e#375633#431660#0" />
-                <element signature="e#375655#431642#0" />
-              </folding>
+            <state relative-caret-position="588">
+              <caret line="141" selection-start-line="141" selection-end-line="141" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/meric_dicom_w_derived_merged_txtKeys.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -165,17 +40,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1.2.752.24.7.2268657091.254554-e5141679-66c8-4f2f-97c0-2b7735e2ab79-2019-05-09_03-11-54.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+            <state relative-caret-position="156">
+              <caret line="1858" column="25" selection-start-line="1858" selection-start-column="25" selection-end-line="1858" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/merge_json.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dcm_tags_tab_sep.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="66" selection-start-line="66" selection-end-line="66" />
+            <state relative-caret-position="-3516">
+              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1.2.752.24.7.2268657091.254554-e5141679-66c8-4f2f-97c0-2b7735e2ab79-2019-05-09_03-11-54_test_out.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="1" selection-start-column="1" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -200,11 +84,22 @@
       <find>rule_id</find>
       <find>rule</find>
       <find>succ</find>
-      <find>output_lis</find>
-      <find>output_list</find>
       <find>success</find>
-      <find>SUCCESS</find>
-      <find>individual</find>
+      <find>subset</find>
+      <find>&quot;rule_results&quot;</find>
+      <find>man</find>
+      <find>recome</find>
+      <find>bulk re</find>
+      <find>bulk resul</find>
+      <find>bulk</find>
+      <find>Institution_Name</find>
+      <find>MR_Acquisition_Type</find>
+      <find>modality</find>
+      <find>manufacturer</find>
+      <find>mr_ac</find>
+      <find>sub</find>
+      <find>'</find>
+      <find>:</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -214,19 +109,25 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app.py" />
-        <option value="$PROJECT_DIR$/1.2.752.24.7.2268657091.254554-e5141679-66c8-4f2f-97c0-2b7735e2ab79-2019-05-09_03-11-54.json" />
         <option value="$PROJECT_DIR$/merge_json.py" />
+        <option value="$PROJECT_DIR$/1.2.752.24.7.2268657091.254554-e5141679-66c8-4f2f-97c0-2b7735e2ab79-2019-05-09_03-11-54_test_out.json" />
+        <option value="$PROJECT_DIR$/read_json.py" />
+        <option value="$PROJECT_DIR$/dcm_tags_tab_sep.txt" />
+        <option value="$PROJECT_DIR$/1.2.752.24.7.2268657091.254554-e5141679-66c8-4f2f-97c0-2b7735e2ab79-2019-05-09_03-11-54.json" />
+        <option value="$PROJECT_DIR$/meric_dicom_w_derived_merged_txtKeys.json" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="66" />
-    <option name="y" value="37" />
-    <option name="width" value="1374" />
-    <option name="height" value="778" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="34" />
+    <option name="width" value="1680" />
+    <option name="height" value="952" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -235,18 +136,32 @@
           <expand>
             <path>
               <item name="Elastic_Search_API" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Desktop/elastik_api/Elastic_Search_API" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Elastic_Search_API" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Elastic_Search_API" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Elastic_Search_API" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Elastic_Search_API" type="462c0819:PsiDirectoryNode" />
+              <item name="Helper" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -266,7 +181,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.merge_json">
+  <component name="RunManager" selected="Python.read_json">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="flask-api" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -376,14 +291,14 @@
       <item itemvalue="Python.Unnamed" />
       <item itemvalue="Python.app" />
       <item itemvalue="Python.helper_functions" />
-      <item itemvalue="Python.read_json" />
       <item itemvalue="Python.merge_json" />
+      <item itemvalue="Python.read_json" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.read_json" />
         <item itemvalue="Python.merge_json" />
         <item itemvalue="Python.app" />
-        <item itemvalue="Python.read_json" />
         <item itemvalue="Python.helper_functions" />
       </list>
     </recent_temporary>
@@ -402,28 +317,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="66" y="37" width="1374" height="778" extended-state="0" />
+    <frame x="0" y="34" width="1680" height="952" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.490991" visible="true" weight="0.24390244" />
-      <window_info id="Structure" order="1" sideWeight="0.509009" side_tool="true" visible="true" weight="0.24390244" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49614397" visible="true" weight="0.24954791" />
+      <window_info id="Structure" order="1" sideWeight="0.50385606" side_tool="true" weight="0.23749119" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35276967" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39975247" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32906976" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5112245" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3988372" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298969" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3298969" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3895349" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3298969" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="R Graphics" order="3" />
-      <window_info anchor="right" id="R Packages" order="4" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49726775" visible="true" weight="0.24870849" />
@@ -447,19 +360,49 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file:///usr/lib/python3.6/json/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MR_1.json" />
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/bs4/__init__.py" />
     <entry file="file://$PROJECT_DIR$/1.2.752.24.7.2268657091.254677-1448ec9a-269d-44f8-bcd1-0c5ec0bbec88-2019-05-09_03-11-30.json" />
+    <entry file="file://$PROJECT_DIR$/1.2.752.24.7.2268657091.255851-8d37722d-78ce-43c7-bcaf-024e4eac0c2b-2019-05-09_03-03-14.json" />
+    <entry file="file://$PROJECT_DIR$/1.2.752.24.7.2268657091.255651-682a5ede-7f84-41c2-8640-32e70bbb007f-2019-05-09_03-05-27.json" />
+    <entry file="file://$USER_HOME$/Downloads/erd-logres.py" />
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11767">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#25#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/decoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5310">
+          <caret line="356" selection-start-line="356" selection-end-line="356" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5265">
+          <caret line="353" selection-start-line="353" selection-end-line="353" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Helper/helper_functions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
+        <state relative-caret-position="2070">
           <caret line="144" selection-start-line="144" selection-end-line="144" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
@@ -467,12 +410,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1.2.752.24.7.2268657091.255851-8d37722d-78ce-43c7-bcaf-024e4eac0c2b-2019-05-09_03-03-14.json" />
-    <entry file="file://$PROJECT_DIR$/1.2.752.24.7.2268657091.255651-682a5ede-7f84-41c2-8640-32e70bbb007f-2019-05-09_03-05-27.json" />
     <entry file="file://$PROJECT_DIR$/tag_test">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="20" selection-start-column="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -483,214 +431,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/erd-logres.py" />
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11767">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/input_name">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dcm_tags_tab_sep.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="621" selection-start-line="621" selection-end-line="621" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/decoder.py" />
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/__init__.py" />
     <entry file="file://$PROJECT_DIR$/read_json.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1590">
-          <caret line="111" column="41" selection-start-line="111" selection-start-column="41" selection-end-line="111" selection-end-column="41" />
+        <state relative-caret-position="436">
+          <caret line="103" column="37" selection-start-line="103" selection-start-column="37" selection-end-line="103" selection-end-column="37" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/input_name">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#25#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meric_dicom_w_derived_merged_txtKeys.json">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="405">
-          <caret line="35" column="91" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.2.752.24.7.2268657091.254554-e5141679-66c8-4f2f-97c0-2b7735e2ab79-2019-05-09_03-11-54_test_out.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-          <folding>
-            <element signature="e#550#52153#0" />
-            <element signature="e#678#52100#0" />
-            <element signature="e#704#1963#0" />
-            <element signature="e#1989#3248#0" />
-            <element signature="e#3274#4533#0" />
-            <element signature="e#4559#5818#0" />
-            <element signature="e#5844#7103#0" />
-            <element signature="e#7129#8388#0" />
-            <element signature="e#8414#9673#0" />
-            <element signature="e#9699#10958#0" />
-            <element signature="e#10984#12243#0" />
-            <element signature="e#12269#13528#0" />
-            <element signature="e#13554#14813#0" />
-            <element signature="e#14839#16098#0" />
-            <element signature="e#16124#17383#0" />
-            <element signature="e#17409#18668#0" />
-            <element signature="e#18694#19953#0" />
-            <element signature="e#19979#21238#0" />
-            <element signature="e#21264#22523#0" />
-            <element signature="e#22549#23808#0" />
-            <element signature="e#23834#25093#0" />
-            <element signature="e#25119#26378#0" />
-            <element signature="e#26404#27663#0" />
-            <element signature="e#27689#28948#0" />
-            <element signature="e#28974#30233#0" />
-            <element signature="e#30259#31518#0" />
-            <element signature="e#31544#32803#0" />
-            <element signature="e#32829#34088#0" />
-            <element signature="e#34114#35373#0" />
-            <element signature="e#35399#36658#0" />
-            <element signature="e#36684#37943#0" />
-            <element signature="e#37969#39228#0" />
-            <element signature="e#39254#40513#0" />
-            <element signature="e#40539#41798#0" />
-            <element signature="e#41824#43083#0" />
-            <element signature="e#43109#44368#0" />
-            <element signature="e#44394#45653#0" />
-            <element signature="e#45679#46938#0" />
-            <element signature="e#46964#48223#0" />
-            <element signature="e#48249#49508#0" />
-            <element signature="e#49534#50793#0" />
-            <element signature="e#50819#52078#0" />
-            <element signature="e#52171#103774#0" />
-            <element signature="e#52299#103721#0" />
-            <element signature="e#52325#53584#0" />
-            <element signature="e#53610#54869#0" />
-            <element signature="e#54895#56154#0" />
-            <element signature="e#56180#57439#0" />
-            <element signature="e#57465#58724#0" />
-            <element signature="e#58750#60009#0" />
-            <element signature="e#60035#61294#0" />
-            <element signature="e#61320#62579#0" />
-            <element signature="e#62605#63864#0" />
-            <element signature="e#63890#65149#0" />
-            <element signature="e#65175#66434#0" />
-            <element signature="e#66460#67719#0" />
-            <element signature="e#67745#69004#0" />
-            <element signature="e#69030#70289#0" />
-            <element signature="e#70315#71574#0" />
-            <element signature="e#71600#72859#0" />
-            <element signature="e#72885#74144#0" />
-            <element signature="e#74170#75429#0" />
-            <element signature="e#75455#76714#0" />
-            <element signature="e#76740#77999#0" />
-            <element signature="e#78025#79284#0" />
-            <element signature="e#79310#80569#0" />
-            <element signature="e#80595#81854#0" />
-            <element signature="e#81880#83139#0" />
-            <element signature="e#83165#84424#0" />
-            <element signature="e#84450#85709#0" />
-            <element signature="e#85735#86994#0" />
-            <element signature="e#87020#88279#0" />
-            <element signature="e#88305#89564#0" />
-            <element signature="e#89590#90849#0" />
-            <element signature="e#90875#92134#0" />
-            <element signature="e#92160#93419#0" />
-            <element signature="e#93445#94704#0" />
-            <element signature="e#94730#95989#0" />
-            <element signature="e#96015#97274#0" />
-            <element signature="e#97300#98559#0" />
-            <element signature="e#98585#99844#0" />
-            <element signature="e#99870#101129#0" />
-            <element signature="e#101155#102414#0" />
-            <element signature="e#102440#103699#0" />
-            <element signature="e#103792#155395#0" />
-            <element signature="e#103955#155377#0" />
-            <element signature="e#155413#207016#0" />
-            <element signature="e#207371#263382#0" />
-            <element signature="e#207745#208018#0" />
-            <element signature="e#208074#208284#0" />
-            <element signature="e#208344#208587#0" />
-            <element signature="e#208974#210337#0" />
-            <element signature="e#210367#211730#0" />
-            <element signature="e#211760#213123#0" />
-            <element signature="e#213153#214516#0" />
-            <element signature="e#214546#215909#0" />
-            <element signature="e#215939#217302#0" />
-            <element signature="e#217332#218695#0" />
-            <element signature="e#218725#220088#0" />
-            <element signature="e#220118#221481#0" />
-            <element signature="e#221511#222874#0" />
-            <element signature="e#222904#224267#0" />
-            <element signature="e#224330#263360#0" />
-            <element signature="e#224360#225723#0" />
-            <element signature="e#225753#227116#0" />
-            <element signature="e#227146#228509#0" />
-            <element signature="e#228539#229902#0" />
-            <element signature="e#229932#231295#0" />
-            <element signature="e#231325#232688#0" />
-            <element signature="e#232718#234081#0" />
-            <element signature="e#234111#235474#0" />
-            <element signature="e#235504#236867#0" />
-            <element signature="e#236897#238260#0" />
-            <element signature="e#238290#239653#0" />
-            <element signature="e#239683#241046#0" />
-            <element signature="e#241076#242439#0" />
-            <element signature="e#242469#243832#0" />
-            <element signature="e#243862#245225#0" />
-            <element signature="e#245255#246618#0" />
-            <element signature="e#246648#248011#0" />
-            <element signature="e#248041#249404#0" />
-            <element signature="e#249434#250797#0" />
-            <element signature="e#250827#252190#0" />
-            <element signature="e#252220#253583#0" />
-            <element signature="e#253613#254976#0" />
-            <element signature="e#255006#256369#0" />
-            <element signature="e#256399#257762#0" />
-            <element signature="e#257792#259155#0" />
-            <element signature="e#259185#260548#0" />
-            <element signature="e#260578#261941#0" />
-            <element signature="e#261971#263334#0" />
-            <element signature="e#263404#319415#0" />
-            <element signature="e#280363#319393#0" />
-            <element signature="e#319437#375448#0" />
-            <element signature="e#375633#431660#0" />
-            <element signature="e#375655#431642#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.2.752.24.7.2268657091.254554-e5141679-66c8-4f2f-97c0-2b7735e2ab79-2019-05-09_03-11-54.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-        </state>
-      </provider>
-      <provider editor-type-id="LargeFileEditor">
-        <state relative-caret-position="118">
-          <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/merge_json.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        <state relative-caret-position="588">
+          <caret line="141" selection-start-line="141" selection-end-line="141" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dcm_tags_tab_sep.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3516">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.2.752.24.7.2268657091.254554-e5141679-66c8-4f2f-97c0-2b7735e2ab79-2019-05-09_03-11-54_test_out.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.2.752.24.7.2268657091.254554-e5141679-66c8-4f2f-97c0-2b7735e2ab79-2019-05-09_03-11-54.json">
+      <provider editor-type-id="LargeFileEditor">
+        <state relative-caret-position="118">
+          <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="1858" column="25" selection-start-line="1858" selection-start-column="25" selection-end-line="1858" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meric_dicom_w_derived_merged_txtKeys.json">
+      <provider editor-type-id="LargeFileEditor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
         </state>
       </provider>
     </entry>

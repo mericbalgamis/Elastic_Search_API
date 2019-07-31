@@ -62,50 +62,100 @@ def createIndex(es, index_name,type_name):
 
 def convertTag():
     tags = DcmTagDictionary()
-    for filename in os.listdir(os.getcwd()):
-        if filename.endswith(".json"):
-            json_data = open(filename)
-            data = json.load(json_data)
-            json_list = str(data)
+
+
+    json_data = open("1.2.752.24.7.2268657091.254554-e5141679-66c8-4f2f-97c0-2b7735e2ab79-2019-05-09_03-11-54.json")
+    data = json.load(json_data)
+    #print(data)
+    json_list = str(data)
+   # print(json_list)
 
 
 
 
-    match = re.findall("[0-9a-fA-F]{8}",json_list)
-    #print(match)
+    match = re.findall("'[0-9]{8}':",json_list)
+    print(match)
 
 
-        #json_list = str(data)
 
 
-    print(json.dumps(json_list, indent=4, sort_keys=True))
+
+
+
+    #print(json.dumps(json_list, indent=4, sort_keys=True))
         #print(json_list)
 
 
-        #match = re.findall(r'\d{8}', json_list)
+    #match = re.findall(r'\d{8}', json_list)
 
 
     for p in match:
-        # print(p)
+
+
+        #p=str(p)
+        p = p[1:-2]
+
+        print(p)
+
         sonuc=tags.convert(p)
-        #print(sonuc)
-        json_list=json_list.replace(str(p),str(sonuc))
 
-        #print(json.dumps(json_list, indent=4, sort_keys=True))
+        print(sonuc)
 
-
-    for filename in os.listdir(os.getcwd()):
-        if filename.endswith(".json"):
-            with open(filename,'w') as f:
-                f.write(json.dumps(json_list, indent=5, sort_keys=True))
+        json_list = json_list.replace("'", "\"")
+        #print(json_list)
+        json_list=json_list.replace(p,sonuc)
+    print(json_list)
 
 
+    #print(json_list)
+
+
+        #print(json_list)
+
+
+
+    json_str = "'" + json_list + "'"
+    final_dictionary = eval(json_str)
+   # print(final_dictionary)
+    with open("1.2.752.24.7.2268657091.254554-e5141679-66c8-4f2f-97c0-2b7735e2ab79-2019-05-09_03-11-54.json", "w") as f:
+
+
+        f.write(final_dictionary)
+
+
+    #with open("1.2.752.24.7.2268657091.254554-e5141679-66c8-4f2f-97c0-2b7735e2ab79-2019-05-09_03-11-54.json", 'r') as fout:
+        #<dat=json.load(fout)
+#dict='"%s"' % dat
+    #print(dict)
+
+
+    #final_dictionary = eval(json_str)
 
 
 
 
 
-            #print(json_list)
+
+         #net=json.loads(k)
+    #print(net)
+        # ini_string =net
+   # print(ini_string)
+
+   # with open("1.2.752.24.7.2268657091.254554-e5141679-66c8-4f2f-97c0-2b7735e2ab79-2019-05-09_03-11-54.json", 'wb') as fout:
+         #json.dump(content, fout, indent=1)
+
+
+
+
+
+
+
+
+
+
+
+
+        #print(json_list)
             #json_list_2=data["DCMs"][1]["00080008"]
 
 
@@ -288,7 +338,7 @@ def main():
 #acc1 = []
 #print(extract_text("00080013","acc1"))
 #print(find2("00080012",".json"))
-#convertTag()
+convertTag()
 
 #main()
 

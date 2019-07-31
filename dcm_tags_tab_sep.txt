@@ -64,11 +64,11 @@
 (0008,0080)	Institution Name
 (0008,0081)	Institution Address
 (0008,0082)	Institution Code Sequence
-(0008,0090)	Referring Physician's Name
-(0008,0092)	Referring Physician's Address
-(0008,0094)	Referring Physician's Telephone Numbers
+(0008,0090)	Referring Physicians Name
+(0008,0092)	Referring Physicians Address
+(0008,0094)	Referring Physicians Telephone Numbers
 (0008,0096)	Referring Physician Identification Sequence
-(0008,009C)	Consulting Physician's Name
+(0008,009C)	Consulting Physicians Name
 (0008,009D)	Consulting Physician Identification Sequence
 (0008,0100)	Code Value
 (0008,0101)	Extended Code Value
@@ -113,15 +113,15 @@
 (0008,1040)	Institutional Department Name
 (0008,1048)	Physician(s) of Record
 (0008,1049)	Physician(s) of Record Identification Sequence
-(0008,1050)	Performing Physician's Name
+(0008,1050)	Performing Physicians Name
 (0008,1052)	Performing Physician Identification Sequence
 (0008,1060)	Name of Physician(s) Reading Study
 (0008,1062)	Physician(s) Reading Study Identification Sequence
-(0008,1070)	Operators' Name
+(0008,1070)	Operators Name
 (0008,1072)	Operator Identification Sequence
 (0008,1080)	Admitting Diagnoses Description
 (0008,1084)	Admitting Diagnoses Code Sequence
-(0008,1090)	Manufacturer's Model Name
+(0008,1090)	Manufacturers Model Name
 (0008,1110)	Referenced Study Sequence
 (0008,1111)	Referenced Performed Procedure Step Sequence
 (0008,1115)	Referenced Series Sequence
@@ -193,7 +193,7 @@
 (0008,9458)	Frame Display Sequence
 (0008,9459)	Recommended Display Frame Rate in Float
 (0008,9460)	Skip Frame Range Flag
-(0010,0010)	Patient's Name
+(0010,0010)	Patients Name
 (0010,0020)	Patient ID
 (0010,0021)	Issuer of Patient ID
 (0010,0022)	Type of Patient ID
@@ -201,15 +201,15 @@
 (0010,0026)	Source Patient Group Identification Sequence
 (0010,0027)	Group of Patients Identification Sequence
 (0010,0028)	Subject Relative Position in Image
-(0010,0030)	Patient's Birth Date
-(0010,0032)	Patient's Birth Time
-(0010,0033)	Patient's Birth Date in Alternative Calendar
-(0010,0034)	Patient's Death Date in Alternative Calendar
-(0010,0035)	Patient's Alternative Calendar
-(0010,0040)	Patient's Sex
-(0010,0050)	Patient's Insurance Plan Code Sequence
-(0010,0101)	Patient's Primary Language Code Sequence
-(0010,0102)	Patient's Primary Language Modifier Code Sequence
+(0010,0030)	Patients Birth Date
+(0010,0032)	Patients Birth Time
+(0010,0033)	Patients Birth Date in Alternative Calendar
+(0010,0034)	Patients Death Date in Alternative Calendar
+(0010,0035)	Patients Alternative Calendar
+(0010,0040)	Patients Sex
+(0010,0050)	Patients Insurance Plan Code Sequence
+(0010,0101)	Patients Primary Language Code Sequence
+(0010,0102)	Patients Primary Language Modifier Code Sequence
 (0010,0200)	Quality Control Subject
 (0010,0201)	Quality Control Subject Type Code Sequence
 (0010,0212)	Strain Description
@@ -223,13 +223,13 @@
 (0010,1000)	Other Patient IDs
 (0010,1001)	Other Patient Names
 (0010,1002)	Other Patient IDs Sequence
-(0010,1005)	Patient's Birth Name
-(0010,1010)	Patient's Age
-(0010,1020)	Patient's Size
-(0010,1021)	Patient's Size Code Sequence
-(0010,1030)	Patient's Weight
-(0010,1040)	Patient's Address
-(0010,1060)	Patient's Mother's Birth Name
+(0010,1005)	Patients Birth Name
+(0010,1010)	Patients Age
+(0010,1020)	Patients Size
+(0010,1021)	Patients Size Code Sequence
+(0010,1030)	Patients Weight
+(0010,1040)	Patients Address
+(0010,1060)	Patients Mothers Birth Name
 (0010,1080)	Military Rank
 (0010,1081)	Branch of Service
 (0010,1090)	Medical Record Locator
@@ -238,18 +238,18 @@
 (0010,2110)	Allergies
 (0010,2150)	Country of Residence
 (0010,2152)	Region of Residence
-(0010,2154)	Patient's Telephone Numbers
-(0010,2155)	Patient's Telecom Information
+(0010,2154)	Patients Telephone Numbers
+(0010,2155)	Patients Telecom Information
 (0010,2160)	Ethnic Group
 (0010,2180)	Occupation
 (0010,21A0)	Smoking Status
 (0010,21B0)	Additional Patient History
 (0010,21C0)	Pregnancy Status
 (0010,21D0)	Last Menstrual Date
-(0010,21F0)	Patient's Religious Preference
+(0010,21F0)	Patients Religious Preference
 (0010,2201)	Patient Species Description
 (0010,2202)	Patient Species Code Sequence
-(0010,2203)	Patient's Sex Neutered
+(0010,2203)	Patients Sex Neutered
 (0010,2210)	Anatomical Orientation Type
 (0010,2292)	Patient Breed Description
 (0010,2293)	Patient Breed Code Sequence
@@ -529,7 +529,7 @@
 (0018,1012)	Date of Secondary Capture
 (0018,1014)	Time of Secondary Capture
 (0018,1016)	Secondary Capture Device Manufacturer
-(0018,1018)	Secondary Capture Device Manufacturer's Model Name
+(0018,1018)	Secondary Capture Device Manufacturers Model Name
 (0018,1019)	Secondary Capture Device Software Versions
 (0018,1020)	Software Version(s)
 (0018,1022)	Video Image Format Acquired
@@ -792,7 +792,7 @@
 (0018,7026)	Detector Active Dimension(s)
 (0018,7028)	Detector Active Origin
 (0018,702A)	Detector Manufacturer Name
-(0018,702B)	Detector Manufacturer's Model Name
+(0018,702B)	Detector Manufacturers Model Name
 (0018,7030)	Field of View Origin
 (0018,7032)	Field of View Rotation
 (0018,7034)	Field of View Horizontal Flip
@@ -1435,7 +1435,7 @@
 (0024,0039)	Excessive Fixation Losses Data Flag
 (0024,0040)	Excessive Fixation Losses
 (0024,0042)	Stimuli Retesting Quantity
-(0024,0044)	Comments on Patient's Performance of Visual Field
+(0024,0044)	Comments on Patients Performance of Visual Field
 (0024,0045)	False Negatives Estimate Flag
 (0024,0046)	False Negatives Estimate
 (0024,0048)	Negative Catch Trials Quantity
@@ -1716,7 +1716,7 @@
 (0038,0101)	Pertinent Resources Sequence
 (0038,0102)	Resource Description
 (0038,0300)	Current Patient Location
-(0038,0400)	Patient's Institution Residence
+(0038,0400)	Patients Institution Residence
 (0038,0500)	Patient State
 (0038,0502)	Patient Clinical Trial Participation Sequence
 (0038,4000)	Visit Comments
@@ -1763,7 +1763,7 @@
 (0040,0003)	Scheduled Procedure Step Start Time
 (0040,0004)	Scheduled Procedure Step End Date
 (0040,0005)	Scheduled Procedure Step End Time
-(0040,0006)	Scheduled Performing Physician's Name
+(0040,0006)	Scheduled Performing Physicians Name
 (0040,0007)	Scheduled Procedure Step Description
 (0040,0008)	Scheduled Protocol Code Sequence
 (0040,0009)	Scheduled Procedure Step ID
@@ -1859,14 +1859,14 @@
 (0040,1011)	Intended Recipients of Results Identification Sequence
 (0040,1012)	Reason For Performed Procedure Code Sequence
 (0040,1101)	Person Identification Code Sequence
-(0040,1102)	Person's Address
-(0040,1103)	Person's Telephone Numbers
-(0040,1104)	Person's Telecom Information
+(0040,1102)	Persons Address
+(0040,1103)	Persons Telephone Numbers
+(0040,1104)	Persons Telecom Information
 (0040,1400)	Requested Procedure Comments
 (0040,2004)	Issue Date of Imaging Service Request
 (0040,2005)	Issue Time of Imaging Service Request
 (0040,2008)	Order Entered By
-(0040,2009)	Order Enterer's Location
+(0040,2009)	Order Enterers Location
 (0040,2010)	Order Callback Phone Number
 (0040,2011)	Order Callback Telecom Information
 (0040,2016)	Placer Order Number / Imaging Service Request
@@ -1891,8 +1891,8 @@
 (0040,4033)	Output Information Sequence
 (0040,4034)	Scheduled Human Performers Sequence
 (0040,4035)	Actual Human Performers Sequence
-(0040,4036)	Human Performer's Organization
-(0040,4037)	Human Performer's Name
+(0040,4036)	Human Performers Organization
+(0040,4037)	Human Performers Name
 (0040,4040)	Raw Data Handling
 (0040,4041)	Input Readiness State
 (0040,4050)	Performed Procedure Step Start DateTime
@@ -2435,8 +2435,8 @@
 (0070,0081)	Content Description
 (0070,0082)	Presentation Creation Date
 (0070,0083)	Presentation Creation Time
-(0070,0084)	Content Creator's Name
-(0070,0086)	Content Creator's Identification Code Sequence
+(0070,0084)	Content Creators Name
+(0070,0086)	Content Creators Identification Code Sequence
 (0070,0087)	Alternate Content Description Sequence
 (0070,0100)	Presentation Size Mode
 (0070,0101)	Presentation Pixel Spacing

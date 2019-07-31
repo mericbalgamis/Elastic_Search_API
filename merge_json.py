@@ -135,8 +135,11 @@ with open(input_name, "r+") as json_file:
                         ]
                     },
                     "bulk_results": {
-                        "subset_id": []
-                        ,
+                        "subset_id": [
+
+                        ],
+
+
                         "mandatory": {
                             "rule_id": []
                         },
@@ -155,7 +158,7 @@ with open(input_name, "r+") as json_file:
                 if (input_SOP == output_obj.SOP):
                     input['DCMs'][i]['SUCCESS']['individual_results']['rule_id'].append(output_obj.rule_id)
 
-            input['DCMs'][i]['SUCCESS']['individual_results']['subset_id'].append(output_obj.subset_id)
+                    input['DCMs'][i]['SUCCESS']['individual_results']['subset_id'].append(output_obj.subset_id)
 
             # input['DCMs'][i].update(b_dict)
 
@@ -163,7 +166,7 @@ with open(input_name, "r+") as json_file:
                 if (input_SOP == output_obj.SOP):
                     input['DCMs'][i]['SUCCESS']['bulk_results']['mandatory']['rule_id'].append(output_obj.rule_id)
 
-            input['DCMs'][i]['SUCCESS']['bulk_results']['subset_id'].append(output_obj.subset_id)
+                    input['DCMs'][i]['SUCCESS']['bulk_results']['subset_id'].append(output_obj.subset_id)
 
             for output_obj in optional_list:
                 if (input_SOP == output_obj.SOP):
