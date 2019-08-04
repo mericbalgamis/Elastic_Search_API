@@ -61,148 +61,26 @@ def createIndex(es, index_name,type_name):
     return es
 
 def convertTag(name):
+
     tags = DcmTagDictionary()
     path = "merged_inputs/"
 
-
     json_data = open(path+name+".json")
     data = json.load(json_data)
-    #print(data)
     json_list = str(data)
-   # print(json_list)
-
-
-
-
     match = re.findall("'[0-9]{8}':",json_list)
-    print(match)
-
-
-
-
-
-
-
-    #print(json.dumps(json_list, indent=4, sort_keys=True))
-        #print(json_list)
-
-
-    #match = re.findall(r'\d{8}', json_list)
-
 
     for p in match:
-
-
-        #p=str(p)
         p = p[1:-2]
-
-        print(p)
-
         sonuc=tags.convert(p)
-
-        print(sonuc)
-
         json_list = json_list.replace("'", "\"")
-        #print(json_list)
         json_list=json_list.replace(p,sonuc)
-    print(json_list)
-
-
-    #print(json_list)
-
-
-        #print(json_list)
-
-
 
     json_str = "'" + json_list + "'"
     final_dictionary = eval(json_str)
-   # print(final_dictionary)
+
     with open(path+name+".json", "w") as f:
-
-
         f.write(final_dictionary)
-
-
-    #with open("1.2.752.24.7.2268657091.254554-e5141679-66c8-4f2f-97c0-2b7735e2ab79-2019-05-09_03-11-54.json", 'r') as fout:
-        #<dat=json.load(fout)
-#dict='"%s"' % dat
-    #print(dict)
-
-
-    #final_dictionary = eval(json_str)
-
-
-
-
-
-
-         #net=json.loads(k)
-    #print(net)
-        # ini_string =net
-   # print(ini_string)
-
-   # with open("1.2.752.24.7.2268657091.254554-e5141679-66c8-4f2f-97c0-2b7735e2ab79-2019-05-09_03-11-54.json", 'wb') as fout:
-         #json.dump(content, fout, indent=1)
-
-
-
-
-
-
-
-
-
-
-
-
-        #print(json_list)
-            #json_list_2=data["DCMs"][1]["00080008"]
-
-
-            #print(json.dumps(json_list, indent=4, sort_keys=True))
-            #print(json_list)
-            #print(json_list_2)
-
-        #name=extract_values(json_list, "vr")
-        #print(name)
-
-
-        #if(tag in json_list):
-
-
-
-
-              #print(json.dumps(json_list[element], indent=4, sort_keys=True))
-             #print("true")
-             #print(json.dumps(json_list[element]["00080008"], indent=4, sort_keys=True))
-       # print(extract_values(json_list, "vr"))
-
-
-        #print(json.dumps(json_list[element]['vr'], indent=4, sort_keys=True))
-      #print(extract_values(deneme, "Value"))
-
-
-
-
-
-
-
-    #for element in data:
-
-
-        #print(tags.convert(element))
-
-        #if('Value' in json_list[element]):
-            #print(json.dumps(json_list[element]['Value'], indent=4, sort_keys=True))
-
-            #for element in json_list[element]['Value']:
-               # print((element))
-
-                #if("{" in str(element) and ('Value' in json_list[element])):
-                   # print(json_list[element]['Value'][element])
-
-
 
 # Establish connection to elastic search and returns ES object
 def extract_text(obj, acc):
@@ -245,11 +123,12 @@ def find(key, dictionary):
 # Search for JSON files in cwd and store JSON files in Elastic Search
 def storeElasticSearch(es):
     print("store")
+    path = "merged_inputs/"
     i = 1
     if es is not None:
         for filename in os.listdir(os.getcwd()+"/merged_inputs"):
             if filename.endswith(".json"):
-                f = open(filename)
+                f = open(path+filename)
                 docket_content = f.read()
 
                 # Send the data into es
@@ -261,14 +140,12 @@ def storeElasticSearch(es):
 
 def startElasticSearch():
     es = connectElasticSearch()
-
     if first:
         es = createIndex(es, "mr", "doc")
         es = storeElasticSearch(es)
         setFalse()
 
     es.indices.refresh(index="mr")
-
     return es
 
 
@@ -308,22 +185,19 @@ def setFalse():
     global first
     first = False
 
-def main():
+def convertMergedInputs():
     for filename in os.listdir(os.getcwd() + "/merged_inputs"):
         if filename.endswith(".json"):
             print(filename[:-5])
             convertTag(filename[:-5])
 
-main()
-
-'''
 def main():
+
     es = connectElasticSearch()
     es = createIndex(es,"mr","doc")
 
     es = storeElasticSearch(es)
     es.indices.refresh(index="mr")
-
 
     #searchByIndex(es,"mr", "_doc", 3)
 
@@ -341,14 +215,3 @@ def main():
     #{"query":{"match":{"DCMs": "00080008"}}}
 
 
-#startElasticSearch()
-#names=extract_values('json',"vr")
-#print(names)
-#print(find("Value", ".json"))
-#acc1 = []
-#print(extract_text("00080013","acc1"))
-#print(find2("00080012",".json"))
-convertTag()
-
-#main()
-'''
