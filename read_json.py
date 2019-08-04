@@ -60,11 +60,12 @@ def createIndex(es, index_name,type_name):
     print(res['result'])
     return es
 
-def convertTag():
+def convertTag(name):
     tags = DcmTagDictionary()
+    path = "merged_inputs/"
 
 
-    json_data = open("1.2.752.24.7.2268657091.254554-e5141679-66c8-4f2f-97c0-2b7735e2ab79-2019-05-09_03-11-54.json")
+    json_data = open(path+name+".json")
     data = json.load(json_data)
     #print(data)
     json_list = str(data)
@@ -117,7 +118,7 @@ def convertTag():
     json_str = "'" + json_list + "'"
     final_dictionary = eval(json_str)
    # print(final_dictionary)
-    with open("1.2.752.24.7.2268657091.254554-e5141679-66c8-4f2f-97c0-2b7735e2ab79-2019-05-09_03-11-54.json", "w") as f:
+    with open(path+name+".json", "w") as f:
 
 
         f.write(final_dictionary)
@@ -228,6 +229,7 @@ def connectElasticSearch():
         print('Elasticsearch could not connect!')
 
     return es
+
 def find(key, dictionary):
     for k, v in dictionary.iteritems():
         if k == key:
@@ -245,7 +247,7 @@ def storeElasticSearch(es):
     print("store")
     i = 1
     if es is not None:
-        for filename in os.listdir(os.getcwd()):
+        for filename in os.listdir(os.getcwd()+"/merged_inputs"):
             if filename.endswith(".json"):
                 f = open(filename)
                 docket_content = f.read()
@@ -306,7 +308,15 @@ def setFalse():
     global first
     first = False
 
+def main():
+    for filename in os.listdir(os.getcwd() + "/merged_inputs"):
+        if filename.endswith(".json"):
+            print(filename[:-5])
+            convertTag(filename[:-5])
 
+main()
+
+'''
 def main():
     es = connectElasticSearch()
     es = createIndex(es,"mr","doc")
@@ -341,4 +351,4 @@ def main():
 convertTag()
 
 #main()
-
+'''
