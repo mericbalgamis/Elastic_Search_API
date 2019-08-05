@@ -1,11 +1,14 @@
-import requests, json, os
+import json, os
 import re
 from pprint import pprint
-from elasticsearch import Elasticsearch, helpers
+from elasticsearch import Elasticsearch
 from tagDictionary import DcmTagDictionary
-import logging
 
 first = True
+form_type = "input"
+path_input = "/merged_inputs/"
+path_output = "/merged_inputs_outputs/"
+
 
 # Simple search function for elastic search
 def searchFullText(es, index_name, name, value):
@@ -63,7 +66,7 @@ def createIndex(es, index_name,type_name):
 def convertTag(name):
 
     tags = DcmTagDictionary()
-    path = "merged_inputs/"
+    path = "merged_inputs_outputs/"
 
     json_data = open(path+name+".json")
     data = json.load(json_data)
@@ -123,12 +126,19 @@ def find(key, dictionary):
 # Search for JSON files in cwd and store JSON files in Elastic Search
 def storeElasticSearch(es):
     print("store")
-    path = "merged_inputs/"
+    path = ""
+    global path_input
+    global path_output
+    if(form_type == "input"):
+        path = path_input
+    else:
+        path = path_output
+
     i = 1
     if es is not None:
-        for filename in os.listdir(os.getcwd()+"/merged_inputs"):
+        for filename in os.listdir(os.getcwd()+path):
             if filename.endswith(".json"):
-                f = open(path+filename)
+                f = open(os.getcwd()+path+filename)
                 docket_content = f.read()
 
                 # Send the data into es
@@ -186,7 +196,7 @@ def setFalse():
     first = False
 
 def convertMergedInputs():
-    for filename in os.listdir(os.getcwd() + "/merged_inputs"):
+    for filename in os.listdir(os.getcwd() + "/merged_inputs_outputs"):
         if filename.endswith(".json"):
             print(filename[:-5])
             convertTag(filename[:-5])
@@ -213,5 +223,3 @@ def main():
     #searchFullText(es, "restaurant", "reviews", "Roberta's Pizza")
 
     #{"query":{"match":{"DCMs": "00080008"}}}
-
-

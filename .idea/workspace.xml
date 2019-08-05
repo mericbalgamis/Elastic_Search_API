@@ -2,6 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b600665b-1306-4853-88d8-09e44c89a59f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.2.752.24.7.2268657091.254554-e5141679-66c8-4f2f-97c0-2b7735e2ab79-2019-05-09_03-11-54.json" beforeDir="false" afterPath="$PROJECT_DIR$/merged_inputs_outputs/1.2.752.24.7.2268657091.254554-e5141679-66c8-4f2f-97c0-2b7735e2ab79-2019-05-09_03-11-54.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.2.752.24.7.2268657091.254554-e5141679-66c8-4f2f-97c0-2b7735e2ab79-2019-05-09_03-11-54_test_out.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/merged_inputs/1.2.752.24.7.2268657091.254554-e5141679-66c8-4f2f-97c0-2b7735e2ab79-2019-05-09_03-11-54.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/merged_inputs/1.2.752.24.7.2268657091.254556-2119ff30-9221-45cd-b53a-4544555f865b-2019-05-09_03-11-46.json" beforeDir="false" afterPath="$PROJECT_DIR$/merged_inputs_outputs/1.2.752.24.7.2268657091.254556-2119ff30-9221-45cd-b53a-4544555f865b-2019-05-09_03-11-46.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merged_inputs/1.2.752.24.7.2268657091.254558-2477c2e5-ae6e-49c2-a642-e1e10dd65f43-2019-05-09_03-11-49.json" beforeDir="false" afterPath="$PROJECT_DIR$/merged_inputs_outputs/1.2.752.24.7.2268657091.254558-2477c2e5-ae6e-49c2-a642-e1e10dd65f43-2019-05-09_03-11-49.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merged_inputs/1.2.752.24.7.2268657091.254606-257f64a6-1a5a-4fd3-bc61-053dd2afaece-2019-05-09_03-11-48.json" beforeDir="false" afterPath="$PROJECT_DIR$/merged_inputs_outputs/1.2.752.24.7.2268657091.254606-257f64a6-1a5a-4fd3-bc61-053dd2afaece-2019-05-09_03-11-48.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merged_inputs/1.2.752.24.7.2268657091.254625-8f73acac-f2ef-4d3e-ac12-5f9f527b279f-2019-05-09_03-12-02.json" beforeDir="false" afterPath="$PROJECT_DIR$/merged_inputs_outputs/1.2.752.24.7.2268657091.254625-8f73acac-f2ef-4d3e-ac12-5f9f527b279f-2019-05-09_03-12-02.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merged_inputs/1.2.752.24.7.2268657091.254677-1448ec9a-269d-44f8-bcd1-0c5ec0bbec88-2019-05-09_03-11-30.json" beforeDir="false" afterPath="$PROJECT_DIR$/merged_inputs_outputs/1.2.752.24.7.2268657091.254677-1448ec9a-269d-44f8-bcd1-0c5ec0bbec88-2019-05-09_03-11-30.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merged_inputs/1.2.752.24.7.2268657091.254728-f05d1140-46a6-4f0b-b672-83ea0422d632-2019-05-09_03-11-27.json" beforeDir="false" afterPath="$PROJECT_DIR$/merged_inputs_outputs/1.2.752.24.7.2268657091.254728-f05d1140-46a6-4f0b-b672-83ea0422d632-2019-05-09_03-11-27.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merged_inputs/1.2.752.24.7.2268657091.254743-2362d55f-0f9f-47ba-8392-feea50f2e7ed-2019-05-09_03-11-07.json" beforeDir="false" afterPath="$PROJECT_DIR$/merged_inputs_outputs/1.2.752.24.7.2268657091.254743-2362d55f-0f9f-47ba-8392-feea50f2e7ed-2019-05-09_03-11-07.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merged_inputs/1.2.752.24.7.2268657091.254785-f9667303-4cb1-42f1-97b5-36fe10cebf4a-2019-05-09_03-09-20.json" beforeDir="false" afterPath="$PROJECT_DIR$/merged_inputs_outputs/1.2.752.24.7.2268657091.254785-f9667303-4cb1-42f1-97b5-36fe10cebf4a-2019-05-09_03-09-20.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merged_inputs/1.2.752.24.7.2268657091.254788-0ee1f3c4-1816-4020-8fed-01abe3a58f54-2019-05-09_03-10-15.json" beforeDir="false" afterPath="$PROJECT_DIR$/merged_inputs_outputs/1.2.752.24.7.2268657091.254788-0ee1f3c4-1816-4020-8fed-01abe3a58f54-2019-05-09_03-10-15.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merged_inputs/1.2.752.24.7.2268657091.254921-178ca059-d2c5-4322-8bb5-210e341bc181-2019-05-09_03-09-44.json" beforeDir="false" afterPath="$PROJECT_DIR$/merged_inputs_outputs/1.2.752.24.7.2268657091.254921-178ca059-d2c5-4322-8bb5-210e341bc181-2019-05-09_03-09-44.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merged_inputs/1.2.752.24.7.2268657091.254957-3d770352-161d-4401-b3ea-c8906d87ee44-2019-05-09_03-10-01.json" beforeDir="false" afterPath="$PROJECT_DIR$/merged_inputs_outputs/1.2.752.24.7.2268657091.254957-3d770352-161d-4401-b3ea-c8906d87ee44-2019-05-09_03-10-01.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merged_inputs/1.2.752.24.7.2268657091.254979-bb3ee741-f3d4-498f-93fb-5014cd081e41-2019-05-09_03-09-50.json" beforeDir="false" afterPath="$PROJECT_DIR$/merged_inputs_outputs/1.2.752.24.7.2268657091.254979-bb3ee741-f3d4-498f-93fb-5014cd081e41-2019-05-09_03-09-50.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merged_inputs/1.2.752.24.7.2268657091.255031-b4c696bf-aabb-480a-b0dd-cb02d31d76de-2019-05-09_03-09-41.json" beforeDir="false" afterPath="$PROJECT_DIR$/merged_inputs_outputs/1.2.752.24.7.2268657091.255031-b4c696bf-aabb-480a-b0dd-cb02d31d76de-2019-05-09_03-09-41.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merged_inputs/1.2.752.24.7.2268657091.255131-ea9ce40c-c9a8-493b-9235-aa41ed699008-2019-05-09_03-09-33.json" beforeDir="false" afterPath="$PROJECT_DIR$/merged_inputs_outputs/1.2.752.24.7.2268657091.255131-ea9ce40c-c9a8-493b-9235-aa41ed699008-2019-05-09_03-09-33.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merged_inputs/1.2.752.24.7.2268657091.255163-242afef3-4133-4bf1-9d4c-c3f3fbb5582d-2019-05-09_03-08-43.json" beforeDir="false" afterPath="$PROJECT_DIR$/merged_inputs_outputs/1.2.752.24.7.2268657091.255163-242afef3-4133-4bf1-9d4c-c3f3fbb5582d-2019-05-09_03-08-43.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merged_inputs/1.2.752.24.7.2268657091.255180-b66539cb-78da-4e30-bda2-6bb3e5f83eed-2019-05-09_03-08-20.json" beforeDir="false" afterPath="$PROJECT_DIR$/merged_inputs_outputs/1.2.752.24.7.2268657091.255180-b66539cb-78da-4e30-bda2-6bb3e5f83eed-2019-05-09_03-08-20.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merged_inputs/1.2.752.24.7.2268657091.255242-1a234404-7097-4ecb-a922-2fabaef2de57-2019-05-09_03-08-16.json" beforeDir="false" afterPath="$PROJECT_DIR$/merged_inputs_outputs/1.2.752.24.7.2268657091.255242-1a234404-7097-4ecb-a922-2fabaef2de57-2019-05-09_03-08-16.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merged_inputs/1.2.752.24.7.2268657091.255283-40f63f32-083a-494d-8a5d-f641d6e4a77d-2019-05-09_03-07-52.json" beforeDir="false" afterPath="$PROJECT_DIR$/merged_inputs_outputs/1.2.752.24.7.2268657091.255283-40f63f32-083a-494d-8a5d-f641d6e4a77d-2019-05-09_03-07-52.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merged_inputs/1.2.752.24.7.2268657091.255298-aabe01b9-45ef-4efe-8273-69cc6caa8349-2019-05-09_03-07-46.json" beforeDir="false" afterPath="$PROJECT_DIR$/merged_inputs_outputs/1.2.752.24.7.2268657091.255298-aabe01b9-45ef-4efe-8273-69cc6caa8349-2019-05-09_03-07-46.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merged_inputs/1.2.752.24.7.2268657091.255306-dcc3aea9-5128-46c8-8bcd-ba818b99ffcb-2019-05-09_03-07-34.json" beforeDir="false" afterPath="$PROJECT_DIR$/merged_inputs_outputs/1.2.752.24.7.2268657091.255306-dcc3aea9-5128-46c8-8bcd-ba818b99ffcb-2019-05-09_03-07-34.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merged_inputs/1.2.752.24.7.2268657091.255425-d323299f-78c8-4333-9d49-3c821f355a1d-2019-05-09_03-06-38.json" beforeDir="false" afterPath="$PROJECT_DIR$/merged_inputs_outputs/1.2.752.24.7.2268657091.255425-d323299f-78c8-4333-9d49-3c821f355a1d-2019-05-09_03-06-38.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merged_inputs/1.2.752.24.7.2268657091.255474-f27477ea-3477-49dd-b297-53329034a036-2019-05-09_03-07-59.json" beforeDir="false" afterPath="$PROJECT_DIR$/merged_inputs_outputs/1.2.752.24.7.2268657091.255474-f27477ea-3477-49dd-b297-53329034a036-2019-05-09_03-07-59.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merged_inputs/1.2.752.24.7.2268657091.255484-6bdffd20-3657-428d-9f08-20306854255c-2019-05-09_03-06-23.json" beforeDir="false" afterPath="$PROJECT_DIR$/merged_inputs_outputs/1.2.752.24.7.2268657091.255484-6bdffd20-3657-428d-9f08-20306854255c-2019-05-09_03-06-23.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merged_inputs/1.2.752.24.7.2268657091.255626-6ed0f8b1-29ce-427f-99be-e14f0111138d-2019-05-09_03-05-53.json" beforeDir="false" afterPath="$PROJECT_DIR$/merged_inputs_outputs/1.2.752.24.7.2268657091.255626-6ed0f8b1-29ce-427f-99be-e14f0111138d-2019-05-09_03-05-53.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merged_inputs/1.2.752.24.7.2268657091.255634-7ecaf62e-1bee-4441-b3dd-b444a84c3972-2019-05-09_03-05-10.json" beforeDir="false" afterPath="$PROJECT_DIR$/merged_inputs_outputs/1.2.752.24.7.2268657091.255634-7ecaf62e-1bee-4441-b3dd-b444a84c3972-2019-05-09_03-05-10.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merged_inputs/1.2.752.24.7.2268657091.255651-682a5ede-7f84-41c2-8640-32e70bbb007f-2019-05-09_03-05-27.json" beforeDir="false" afterPath="$PROJECT_DIR$/merged_inputs_outputs/1.2.752.24.7.2268657091.255651-682a5ede-7f84-41c2-8640-32e70bbb007f-2019-05-09_03-05-27.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merged_inputs/1.2.752.24.7.2268657091.255712-5b10e0b3-c95e-440b-99a6-abb6f17eebb6-2019-05-09_03-09-54.json" beforeDir="false" afterPath="$PROJECT_DIR$/merged_inputs_outputs/1.2.752.24.7.2268657091.255712-5b10e0b3-c95e-440b-99a6-abb6f17eebb6-2019-05-09_03-09-54.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merged_inputs/1.2.752.24.7.2268657091.255762-95f6dbdb-3c30-4be1-a05d-78eb7b562755-2019-05-09_03-06-08.json" beforeDir="false" afterPath="$PROJECT_DIR$/merged_inputs_outputs/1.2.752.24.7.2268657091.255762-95f6dbdb-3c30-4be1-a05d-78eb7b562755-2019-05-09_03-06-08.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merged_inputs/1.2.752.24.7.2268657091.255783-10682eef-a98b-4d08-a941-f84ba9c62a11-2019-05-09_03-04-42.json" beforeDir="false" afterPath="$PROJECT_DIR$/merged_inputs_outputs/1.2.752.24.7.2268657091.255783-10682eef-a98b-4d08-a941-f84ba9c62a11-2019-05-09_03-04-42.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merged_inputs/1.2.752.24.7.2268657091.255798-fdec11c7-415d-4ff9-8f60-7ee91ab7ebd3-2019-05-09_03-04-34.json" beforeDir="false" afterPath="$PROJECT_DIR$/merged_inputs_outputs/1.2.752.24.7.2268657091.255798-fdec11c7-415d-4ff9-8f60-7ee91ab7ebd3-2019-05-09_03-04-34.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merged_inputs/1.2.752.24.7.2268657091.255808-daac3479-125f-4e4e-bd7c-515e55cc675b-2019-05-09_03-04-23.json" beforeDir="false" afterPath="$PROJECT_DIR$/merged_inputs_outputs/1.2.752.24.7.2268657091.255808-daac3479-125f-4e4e-bd7c-515e55cc675b-2019-05-09_03-04-23.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merged_inputs/1.2.752.24.7.2268657091.255811-f1ed688f-db4b-4c6f-bc09-babd1be08cbc-2019-05-09_03-03-24.json" beforeDir="false" afterPath="$PROJECT_DIR$/merged_inputs_outputs/1.2.752.24.7.2268657091.255811-f1ed688f-db4b-4c6f-bc09-babd1be08cbc-2019-05-09_03-03-24.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merged_inputs/1.2.752.24.7.2268657091.255824-ee36bb42-5fd6-4c44-bcbb-4d664cdcb3a3-2019-05-09_03-03-21.json" beforeDir="false" afterPath="$PROJECT_DIR$/merged_inputs_outputs/1.2.752.24.7.2268657091.255824-ee36bb42-5fd6-4c44-bcbb-4d664cdcb3a3-2019-05-09_03-03-21.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merged_inputs/1.2.752.24.7.2268657091.255851-8d37722d-78ce-43c7-bcaf-024e4eac0c2b-2019-05-09_03-03-14.json" beforeDir="false" afterPath="$PROJECT_DIR$/merged_inputs_outputs/1.2.752.24.7.2268657091.255851-8d37722d-78ce-43c7-bcaf-024e4eac0c2b-2019-05-09_03-03-14.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merged_inputs/1.2.752.24.7.2268657091.255872-e77e81af-bb55-482b-8683-9374659e811e-2019-05-09_03-04-03.json" beforeDir="false" afterPath="$PROJECT_DIR$/merged_inputs_outputs/1.2.752.24.7.2268657091.255872-e77e81af-bb55-482b-8683-9374659e811e-2019-05-09_03-04-03.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merged_inputs/1.2.752.24.7.2268657091.256060-ea814600-a094-4603-a897-94fc57098ec3-2019-05-09_03-03-16.json" beforeDir="false" afterPath="$PROJECT_DIR$/merged_inputs_outputs/1.2.752.24.7.2268657091.256060-ea814600-a094-4603-a897-94fc57098ec3-2019-05-09_03-03-16.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merged_inputs/1.2.752.24.7.2268657091.256100-a91ee37c-bf59-4453-a90b-bfc9c6327ae9-2019-05-09_03-02-49.json" beforeDir="false" afterPath="$PROJECT_DIR$/merged_inputs_outputs/1.2.752.24.7.2268657091.256100-a91ee37c-bf59-4453-a90b-bfc9c6327ae9-2019-05-09_03-02-49.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merged_inputs/1.2.752.24.7.2268657091.256112-29a56987-997c-4e90-a8f3-9bac8da625aa-2019-05-09_03-02-14.json" beforeDir="false" afterPath="$PROJECT_DIR$/merged_inputs_outputs/1.2.752.24.7.2268657091.256112-29a56987-997c-4e90-a8f3-9bac8da625aa-2019-05-09_03-02-14.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merged_inputs/1.2.752.24.7.2268657091.256123-429718c0-24e6-4a0f-aa69-6b81a24e7a68-2019-05-09_03-02-26.json" beforeDir="false" afterPath="$PROJECT_DIR$/merged_inputs_outputs/1.2.752.24.7.2268657091.256123-429718c0-24e6-4a0f-aa69-6b81a24e7a68-2019-05-09_03-02-26.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meric_dicom_w_derived_merged_txtKeys.json" beforeDir="false" afterPath="$PROJECT_DIR$/merged_inputs/meric_dicom_w_derived_merged_txtKeys.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/read_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/read_json.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -10,36 +54,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="16" column="67" lean-forward="true" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
-              <folding>
-                <element signature="e#25#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/read_json.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="43">
-              <caret line="5762" column="90" selection-start-line="5762" selection-start-column="90" selection-end-line="5762" selection-end-column="90" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-                <element signature="e#1270#1539#0" />
-                <element signature="e#4025#4387#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -47,98 +61,21 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>stored</find>
-      <find>Image_Type</find>
-      <find>Instance_Creation_Date</find>
-      <find>created</find>
-      <find>1.2.392.200036.9123.100.12.12.20413.90190411153231331964906296</find>
-      <find>1.2.392.200036.9123.100.12.12.20413.90190411153725958720342696</find>
-      <find>rule_id</find>
-      <find>rule</find>
-      <find>succ</find>
-      <find>success</find>
-      <find>subset</find>
-      <find>&quot;rule_results&quot;</find>
-      <find>man</find>
-      <find>recome</find>
-      <find>bulk re</find>
-      <find>bulk resul</find>
-      <find>bulk</find>
-      <find>Institution_Name</find>
-      <find>MR_Acquisition_Type</find>
-      <find>modality</find>
-      <find>manufacturer</find>
-      <find>mr_ac</find>
-      <find>sub</find>
-      <find>'</find>
-      <find>:</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/app.py" />
-        <option value="$PROJECT_DIR$/merge_json.py" />
-        <option value="$PROJECT_DIR$/1.2.752.24.7.2268657091.254554-e5141679-66c8-4f2f-97c0-2b7735e2ab79-2019-05-09_03-11-54_test_out.json" />
-        <option value="$PROJECT_DIR$/dcm_tags_tab_sep.txt" />
-        <option value="$PROJECT_DIR$/1.2.752.24.7.2268657091.254554-e5141679-66c8-4f2f-97c0-2b7735e2ab79-2019-05-09_03-11-54.json" />
-        <option value="$PROJECT_DIR$/meric_dicom_w_derived_merged_txtKeys.json" />
-        <option value="$PROJECT_DIR$/read_json.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="34" />
-    <option name="width" value="1680" />
-    <option name="height" value="952" />
-  </component>
+  <component name="ProjectId" id="1OyQFtTvstTyFNldzX6w03v6e91" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Elastic_Search_API" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Elastic_Search_API" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Elastic_Search_API" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Elastic_Search_API" type="462c0819:PsiDirectoryNode" />
-              <item name="Helper" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="flask-api" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/PycharmProjects/flask-api" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/merged_inputs" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -290,216 +227,31 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49614397" visible="true" weight="0.22950819" />
-      <window_info id="Structure" order="1" sideWeight="0.50385606" side_tool="true" weight="0.23749119" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32906976" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5075594" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3988372" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3298969" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3298969" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.29913607" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3298969" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49726775" visible="true" weight="0.24870849" />
-      <window_info id="Structure" order="1" sideWeight="0.5027322" side_tool="true" visible="true" weight="0.24870849" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5470297" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39975247" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3298969" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3298969" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.30120483" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3298969" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file:///usr/lib/python3.6/json/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/MR_1.json" />
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/bs4/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/1.2.752.24.7.2268657091.254677-1448ec9a-269d-44f8-bcd1-0c5ec0bbec88-2019-05-09_03-11-30.json" />
-    <entry file="file://$PROJECT_DIR$/1.2.752.24.7.2268657091.255851-8d37722d-78ce-43c7-bcaf-024e4eac0c2b-2019-05-09_03-03-14.json" />
-    <entry file="file://$PROJECT_DIR$/1.2.752.24.7.2268657091.255651-682a5ede-7f84-41c2-8640-32e70bbb007f-2019-05-09_03-05-27.json" />
-    <entry file="file://$USER_HOME$/Downloads/erd-logres.py" />
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11767">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/decoder.py" />
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/Helper/helper_functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2070">
-          <caret line="144" selection-start-line="144" selection-end-line="144" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tag_test">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tagDictionary.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/input_name">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dcm_tags_tab_sep.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3516">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meric_dicom_w_derived_merged_txtKeys.json">
-      <provider editor-type-id="LargeFileEditor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/merged_inputs/1.2.752.24.7.2268657091.254957-3d770352-161d-4401-b3ea-c8906d87ee44-2019-05-09_03-10-01.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/merged_inputs/1.2.752.24.7.2268657091.255851-8d37722d-78ce-43c7-bcaf-024e4eac0c2b-2019-05-09_03-03-14.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/merged_inputs/1.2.752.24.7.2268657091.254743-2362d55f-0f9f-47ba-8392-feea50f2e7ed-2019-05-09_03-11-07.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/merged_inputs/1.2.752.24.7.2268657091.254606-257f64a6-1a5a-4fd3-bc61-053dd2afaece-2019-05-09_03-11-48.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/merged_inputs/1.2.752.24.7.2268657091.254728-f05d1140-46a6-4f0b-b672-83ea0422d632-2019-05-09_03-11-27.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.2.752.24.7.2268657091.256123-429718c0-24e6-4a0f-aa69-6b81a24e7a68-2019-05-09_03-02-26.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret column="1502" lean-forward="true" selection-end-column="325597" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.2.752.24.7.2268657091.254554-e5141679-66c8-4f2f-97c0-2b7735e2ab79-2019-05-09_03-11-54_test_out.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.2.752.24.7.2268657091.254554-e5141679-66c8-4f2f-97c0-2b7735e2ab79-2019-05-09_03-11-54.json">
-      <provider editor-type-id="LargeFileEditor">
-        <state relative-caret-position="118">
-          <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/merged_inputs/1.2.752.24.7.2268657091.254554-e5141679-66c8-4f2f-97c0-2b7735e2ab79-2019-05-09_03-11-54.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/merged_inputs/1.2.752.24.7.2268657091.254979-bb3ee741-f3d4-498f-93fb-5014cd081e41-2019-05-09_03-09-50.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/merged_inputs/1.2.752.24.7.2268657091.255783-10682eef-a98b-4d08-a941-f84ba9c62a11-2019-05-09_03-04-42.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/merged_inputs/1.2.752.24.7.2268657091.256123-429718c0-24e6-4a0f-aa69-6b81a24e7a68-2019-05-09_03-02-26.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/merged_inputs/1.2.752.24.7.2268657091.256060-ea814600-a094-4603-a897-94fc57098ec3-2019-05-09_03-03-16.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generator.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/merge_json.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="141" selection-start-line="141" selection-end-line="141" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="16" column="67" lean-forward="true" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
-          <folding>
-            <element signature="e#25#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/read_json.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="5762" column="90" selection-start-line="5762" selection-start-column="90" selection-end-line="5762" selection-end-column="90" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-            <element signature="e#1270#1539#0" />
-            <element signature="e#4025#4387#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
