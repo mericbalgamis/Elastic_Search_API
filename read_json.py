@@ -5,9 +5,10 @@ from elasticsearch import Elasticsearch
 from tagDictionary import DcmTagDictionary
 
 first = True
-form_type = "output"
 path_input = "/merged_inputs/"
 path_output = "/merged_inputs_outputs/"
+global form_type
+form_type = ""
 
 
 # Simple search function for elastic search
@@ -125,14 +126,17 @@ def find(key, dictionary):
 
 # Search for JSON files in cwd and store JSON files in Elastic Search
 def storeElasticSearch(es):
-    print("store")
+    #print("store")
     path = ""
     global path_input
     global path_output
-    if(form_type == "input"):
-        path = path_input
-    else:
+    #print("store* " + form_type)
+    if(form_type != "input"):
         path = path_output
+        #print("store+ "+form_type)
+    else:
+        path = path_input
+        print("store- " + form_type)
 
     i = 1
     if es is not None:
@@ -148,7 +152,7 @@ def storeElasticSearch(es):
 
     return es
 
-def startElasticSearch():
+def startElasticSearch(var):
     es = connectElasticSearch()
     if first:
         es.indices.delete(index='mr', ignore=[400, 404])
@@ -157,6 +161,8 @@ def startElasticSearch():
         setFalse()
 
     es.indices.refresh(index="mr")
+    form_type = str(var)
+    #print("start+ "+form_type)
     return es
 
 

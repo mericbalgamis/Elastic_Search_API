@@ -1,5 +1,6 @@
 #!/usr/local/bin/python3
 import json, os
+import sys
 from flask import Flask, jsonify, request
 from flask_cors import CORS, cross_origin
 from read_json import startElasticSearch
@@ -32,7 +33,7 @@ def write_JSON(response):
 def get_query():
     content = request.get_json()
     print(json.dumps(content,indent=2))
-    es = startElasticSearch()
+    es = startElasticSearch(sys.argv[1])
     result = es.search("mr", content)
     edited_JSON = result['hits']['hits']
     edited_JSON = "{\"node\":"+json.dumps(edited_JSON) + "}"
