@@ -5,7 +5,7 @@ from elasticsearch import Elasticsearch
 from tagDictionary import DcmTagDictionary
 
 first = True
-form_type = "input"
+form_type = "output"
 path_input = "/merged_inputs/"
 path_output = "/merged_inputs_outputs/"
 
@@ -208,18 +208,3 @@ def main():
 
     es = storeElasticSearch(es)
     es.indices.refresh(index="mr")
-
-    #searchByIndex(es,"mr", "_doc", 3)
-
-
-    #searchByIndex(es,"mr", "doc", 3)
-    #print("asdh")
-
-    #convertTag()
-    #print("\nANOTHER QUERY EXAMPLE\n")
-    #searchFullText(es, "restaurant", "neighborhood", "Manhattan")
-
-    # Bu aramada "Roberta's Pizza" kelimesinin tümünü bulmuyor. Tekrar bakılması lazım.
-    #searchFullText(es, "restaurant", "reviews", "Roberta's Pizza")
-
-    #{"query":{"match":{"DCMs": "00080008"}}}
