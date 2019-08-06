@@ -4,7 +4,9 @@
     <list default="true" id="b600665b-1306-4853-88d8-09e44c89a59f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv_outputs/csv_output.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/read_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/read_json.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/response.json" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

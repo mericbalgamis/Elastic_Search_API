@@ -151,6 +151,7 @@ def storeElasticSearch(es):
 def startElasticSearch():
     es = connectElasticSearch()
     if first:
+        es.indices.delete(index='mr', ignore=[400, 404])
         es = createIndex(es, "mr", "doc")
         es = storeElasticSearch(es)
         setFalse()

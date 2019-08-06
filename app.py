@@ -4,6 +4,7 @@ from flask import Flask, jsonify, request
 from flask_cors import CORS, cross_origin
 from read_json import startElasticSearch
 
+path_to_CSV_output = "./csv_outputs"
 content = ""
 app = Flask(__name__)
 cors = CORS(app)
@@ -17,7 +18,8 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 #
 
 def convert_to_CSV():
-    os.system("python3.6 json_to_csv.py node ./response.json ./csv_outputs/csv_output.csv")
+    os.system("python3.6 json_to_csv.py node ./response.json "+path_to_CSV_output+"/csv_output.csv")
+    os.remove("./response.json")
 
 def write_JSON(response):
     with open('response.json', 'w', encoding='utf-8') as f:
