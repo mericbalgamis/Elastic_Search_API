@@ -3,13 +3,15 @@ import re
 from pprint import pprint
 from elasticsearch import Elasticsearch
 from tagDictionary import DcmTagDictionary
+import sys
 
 first = True
 path_input = "/merged_inputs/"
 path_output = "/merged_inputs_outputs/"
 global form_type
-form_type = ""
 
+form_type=sys.argv[1]
+#print(sys.argv[1])
 
 # Simple search function for elastic search
 def searchFullText(es, index_name, name, value):
